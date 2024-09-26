@@ -8,7 +8,6 @@ class Solution:
     You can return the answer in any order.
     """
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        n = len(nums)
         diff_map = {}
         for i, n in enumerate(nums):
             diff = target - n
